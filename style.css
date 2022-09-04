@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #6D28D9;
+    --text-color: #FFFFFF;
+    --alt-text: #000000;
+}
+
+body{
+    color: var(--text-color);
+    font-family: 'Merriweather', serif;
+}
+
+#header{
+    box-sizing: border-box;
+    block-size: 3em;
+    text-shadow:3px 1px red;
+    background-color: var(--primary-color);
+    text-align: center;
+    margin: 0em 0em;
+}
+
+#input-txt{
+    font-size:x-large;
+    padding: 1em;
+    display: block;
+    block-size: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    border-width: thick;
+    border-radius: 1em;
+}
+
+#btn-translate{
+    display: block;
+    margin: auto;
+    height: 2.5em;
+    border-radius: 0.5em 0.5em;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.image{
+    display: block;
+    margin: auto auto;
+}
+
+#output-txt{
+    color: var(--primary-color);
+    padding: 1em;
+    font-size:x-large;
+    border: 10px solid black;
+    height: 10em;
+    margin: auto auto;
+    max-width: 600px;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#footer{
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    block-size: 12em;
+    text-align: center;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+p{
+    text-align: center;
+    padding: 1em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.25rem;
+}
+
+.link {
+    cursor: pointer;
+}
